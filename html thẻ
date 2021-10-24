@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta chaset="utf-8">
+    <title></title>
+    <style type="text/css">
+    	#thang_cha{
+    		height: 1000px;
+    		width: 100%;
+    		background: pink;
+    	}
+       #thang_con_one{
+    		height: 30%;
+    		width: 100%;
+    		background: red;
+    	}
+       #thang_con_one > .trai {
+    		height: 40%;
+    		width: 100%;
+    		background: yellow;
+    		float: right;
+    	}
+    	#thang_con_one > .phai {
+    		height: 60%;
+    		width: 100%;
+    		background: pink;
+    		float: left;
+    	}
+    	#thang_con_one > .trai > .tren {
+    		height: 50%;
+    		width: 100%;
+    		background: black;
+    		text-align: left;
+    	}
+    	#thang_con_one > .trai > .duoi {
+    		height: 50%;
+    		width: 100%;
+    		background: purple;
+    		text-align: right;
+    	}
+    	#thang_con_two{
+    		height: 70%;
+    		width: 100%;
+    		background: green;
+    	}
+    	#thang_con_two > .trai {
+    		height: 50%;
+    		width: 100%;
+    		background: orange;
+    	}
+    	#thang_con_two > .phai {
+    		height: 50%;
+    		width: 100%;
+    		background: violet;
+    	}
+ 
+ 
+    </style>
+  
+</head>
+<body >
+	<div id="thang_cha">
+		<div id="thang_con_one">
+			<div class = "trai">
+				<img src="D:\HTML\Dungidol.gif
+				 " style="height: 100%" width="30%">
+				 <div class="tren">
+				 	<font size="16">
+				 		<option>game gì đây</option>
+				 		<select>
+                            <option>liên quân</option>
+      		                <option>liên minh</option>
+      		                <option>pupg</option>
+                        </select>
+				 	</font>
+				 </div>
+			</div>
+			<div class = "phai">
+				<img src="D:\HTML\Dungidol.gif
+				 " style="height: 100%" width="30%"></div>
+        </div>
+	    <div id="thang_con_two">
+	    	<div class = "trai"></div>
+            <div class = "phai"></div>
+	    </div>
+	</div>
+
+
+
